@@ -39,10 +39,11 @@ class IceCreamStand(Restaurant):
         
     def list_flavors(self):
         """display the flavors assigned to the ice cream stand class"""
-        print(f"The flavors featured at '{self.name}' are:")
+        print(f"The flavors featured at {self.name} are:")
         for flavor in self.flavors:
             print(f"  ~ {flavor.title()}")
-            
+
+# olio section            
 olio = Restaurant('olio', 'italian')
 
 print(olio.name)
@@ -51,10 +52,12 @@ print(olio.cuisine,"\n")
 olio.describe_restaurant()
 olio.open_restaurant()
 
+# sundae section
 sundae = IceCreamStand('Sundae Best', 'Ice Cream')
 sundae.flavors = ['Cherry', 'Chocolate', 'Mint']
 
 print(sundae.name)
+
 sundae.list_flavors()
 sundae.open_restaurant()
 
