@@ -1,0 +1,4 @@
+In python you can make variables, assign them values, and edit them
+In python you can make loops to repeat actions
+In python you can create classes which make assigning attributes easy to repeat
+In python you can do anything your imagination can invent
