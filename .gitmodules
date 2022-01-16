@@ -1,0 +1,3 @@
+[submodule "pcc_2e"]
+	path = pcc_2e
+	url = https://github.com/ehmatthes/pcc_2e.git
